@@ -1,0 +1,20 @@
+# コメント
+ # 1
+	void CPlayer::SetPlayerAbility(void)
+		case CItem::ITEMTYPE_BARRIER:
+	やや見づらさを感じるので初期化の引数にライフ設定を入れてみるのはどうか。
+
+ # 2
+	void CEnemy::Update(void)
+		if (m_nCntCreateBall == 480)
+		{ //180フレーム経ったとき
+			//サードボールの生成
+			CEnemy::Create(D3DXVECTOR3(pos.x, pos.y - (BOSS_BALL_SIZE.y / 2) - (THIRD_BALL_SIZE.y / 2), 0.0f), THIRD_BALL_SIZE, D3DXVECTOR3(0.0f, -5.0f, 0.0f), OBJTYPE_THIRD_BALL);
+		}
+		else if (m_nCntCreateBall == 495)
+		{ //195フレーム経ったとき
+	30/60fps,可変などフレーム数が変わったときにゲームバランスも一緒に
+	代わって調整が必要になるので時間べースの計算や調整しやすい方法に置き換える。
+
+ # 3
+	日本語のフォルダは英語に置き換える。
