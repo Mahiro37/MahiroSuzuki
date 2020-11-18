@@ -1,0 +1,7 @@
+﻿  player.cpp
+c:\users\gsp057\documents\visual studio 2015\１年「制作物」\3dシューティング「simple shooting」\test88 3dゲーム制作\player.cpp(101): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\gsp057\documents\visual studio 2015\１年「制作物」\3dシューティング「simple shooting」\test88 3dゲーム制作\player.cpp(110): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  collision.cpp
+  コードを生成中...
+  test88 3Dゲーム制作.vcxproj -> C:\Users\GSP057\Documents\Visual Studio 2015\１年「制作物」\3Dシューティング「Simple Shooting」\Debug\test88 3Dゲーム制作.exe
+  test88 3Dゲーム制作.vcxproj -> C:\Users\GSP057\Documents\Visual Studio 2015\１年「制作物」\3Dシューティング「Simple Shooting」\Debug\test88 3Dゲーム制作.pdb (Full PDB)
