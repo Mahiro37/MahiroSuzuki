@@ -76,15 +76,15 @@ void InitGame(void)
 
 	//敵の初期化
 	InitEnemy();
-	//SetEnemy(D3DXVECTOR3(-110.0f, 2.0f, 110.0f), 0, 0);
-	//SetEnemy(D3DXVECTOR3(0.0f, 2.0f, 110.0f), 0, 1);
-	//SetEnemy(D3DXVECTOR3(110.0f, 2.0f, 110.0f), 0, 2);
-	//SetEnemy(D3DXVECTOR3(-110.0f, 2.0f, 0.0f), 0, 3);
-	//SetEnemy(D3DXVECTOR3(110.0f, 2.0f, 0.0f), 0, 4);
-	//SetEnemy(D3DXVECTOR3(-110.0f, 2.0f, -110.0f), 0, 5);
-	//SetEnemy(D3DXVECTOR3(0.0f, 2.0f, -110.0f), 0, 6);
-	//SetEnemy(D3DXVECTOR3(110.0f, 2.0f, -110.0f), 0, 7);
-	//SetEnemy(D3DXVECTOR3(0.0f, 2.0f, 10.0f), 1, 8);
+	SetEnemy(D3DXVECTOR3(-110.0f, 2.0f, 110.0f), 0, 0);
+	SetEnemy(D3DXVECTOR3(0.0f, 2.0f, 110.0f), 0, 1);
+	SetEnemy(D3DXVECTOR3(110.0f, 2.0f, 110.0f), 0, 2);
+	SetEnemy(D3DXVECTOR3(-110.0f, 2.0f, 0.0f), 0, 3);
+	SetEnemy(D3DXVECTOR3(110.0f, 2.0f, 0.0f), 0, 4);
+	SetEnemy(D3DXVECTOR3(-110.0f, 2.0f, -110.0f), 0, 5);
+	SetEnemy(D3DXVECTOR3(0.0f, 2.0f, -110.0f), 0, 6);
+	SetEnemy(D3DXVECTOR3(110.0f, 2.0f, -110.0f), 0, 7);
+	SetEnemy(D3DXVECTOR3(0.0f, 2.0f, 10.0f), 1, 8);
 
 	//カメラの初期化
 	InitCamera();
@@ -100,7 +100,7 @@ void InitGame(void)
 
 	//ダメージブロックの初期化
 	InitDamageblock();
-	/*for (int i = 0; i < 4; i++)
+	for (int i = 0; i < 4; i++)
 	{
 		if (i == 0)
 		{
@@ -152,12 +152,12 @@ void InitGame(void)
 		}
 
 		g_Blockx = 0;
-	}*/
+	}
 	SetDamageblock(D3DXVECTOR3(100.0f, 2.0f, 53.0f), D3DXVECTOR3(50.0f, 50.0f, 50.0f), 0);
 
 	//ブロックの初期化
 	InitBlock();
-	SetBlock(D3DXVECTOR3(0, 0, 172), D3DXVECTOR3(0.0f, 50.0f, 0.0f), D3DXVECTOR3(500.0f, 9.0f, 12.0f));	//奥の壁
+	SetBlock(D3DXVECTOR3(0, 0, 172), D3DXVECTOR3(0.0f, 0.0f, 0.0f), D3DXVECTOR3(500.0f, 9.0f, 12.0f));	//奥の壁
 	SetBlock(D3DXVECTOR3(172, 0, 0), D3DXVECTOR3(0.0f, 0.0f, 0.0f), D3DXVECTOR3(1.8f, 9.0f, 500.0f));	//右の壁
 	SetBlock(D3DXVECTOR3(-172, 0, 0), D3DXVECTOR3(0.0f, 0.0f, 0.0f), D3DXVECTOR3(1.8f, 9.0f, 500.0f));	//左の壁
 	SetBlock(D3DXVECTOR3(0, 0, -172), D3DXVECTOR3(0.0f, 0.0f, 0.0f), D3DXVECTOR3(500.0f, 9.0f, 10.0f));	//手前の壁
