@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (2Dシューティング 「タイトル未定」 (C++リメイク).vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  bullet.cpp
+  コードを生成中...
+  コンパイル中...
+  tutorial_score_attack.cpp
+  tutorial_game.cpp
+  player.cpp
+  manager.cpp
+  item.cpp
+  enemy.cpp
+  effect.cpp
+  コードを生成中...
+  2DSTG.vcxproj -> C:\Users\GSP057\Documents\Visual Studio 2015\作品\2DSTG\Debug\2DSTG.exe
+  2DSTG.vcxproj -> C:\Users\GSP057\Documents\Visual Studio 2015\作品\2DSTG\Debug\2DSTG.pdb (Full PDB)
